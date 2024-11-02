@@ -10,3 +10,5 @@ X = digits.data
 Y = digits.target
 
 model = RandomForestClassifier()
+
+y_pred = model.predict(X)
