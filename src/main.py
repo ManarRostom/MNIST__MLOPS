@@ -15,3 +15,4 @@ model.fit(X,Y)
 
 y_pred = model.predict(X)
 accuracy = accuracy_score(Y,y_pred)
+accuracy_score(Y,y_pred)
