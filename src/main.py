@@ -10,3 +10,6 @@ X = digits.data
 Y = digits.target
 
 model = RandomForestClassifier()
+
+model.fit(X,Y)
+
